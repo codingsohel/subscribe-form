@@ -1,0 +1,64 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(90deg,#ff9966,#ff5e62);
+}
+.wrapper{
+    height: 100vh;
+    position: relative;
+}
+.fa-envelope{
+    color: #fff;
+    font-size: 2rem;
+    background: linear-gradient(90deg,#ff9966,#ff5e62);
+    padding: 1rem;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
+.card-content{
+    max-width: 480px;
+    background-color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 4rem .8rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+}
+.card-content h1{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.card-content p{
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+input{
+    padding: .8rem 1rem;
+    width: 40%;
+    border: .1rem solid #d1d1d1;
+    outline: none;
+    border-radius: 5rem;
+    font-size: .7rem;
+}
+::placeholder{
+    color: #d1d1d1;
+}
+button{
+    padding: .8rem 2rem;
+    outline: none;
+    border: none;
+    color:#fff;
+    background: linear-gradient(90deg,#ff9966,#ff5e62);
+    border-radius: 5rem;
+    font-size: .7rem;
+    cursor: pointer;
+}
